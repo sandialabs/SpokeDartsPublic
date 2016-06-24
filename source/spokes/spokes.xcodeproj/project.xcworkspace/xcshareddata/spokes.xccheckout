@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>7C4AE12C-1C07-4C76-ACB3-1F0D887B24C5</string>
+	<key>IDESourceControlProjectName</key>
+	<string>spokes</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>DBA641B9ED91B4242C64AF3959D3A9AD643BBFFC</key>
+		<string>https://github.com/msebeida/graphics-repo.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>SpokeDarts/Code/spoke-darts/spokes/spokes.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>DBA641B9ED91B4242C64AF3959D3A9AD643BBFFC</key>
+		<string>../../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/msebeida/graphics-repo.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>DBA641B9ED91B4242C64AF3959D3A9AD643BBFFC</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>DBA641B9ED91B4242C64AF3959D3A9AD643BBFFC</string>
+			<key>IDESourceControlWCCName</key>
+			<string>graphics-repo</string>
+		</dict>
+	</array>
+</dict>
+</plist>

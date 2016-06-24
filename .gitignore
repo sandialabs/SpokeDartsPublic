@@ -27,3 +27,6 @@
 *.exe
 *.out
 *.app
+
+# MAC indices
+.DS_Store
