@@ -1,16 +1,12 @@
 # SpokeDarts
 SpokeDarts sphere-packing sampling in any dimension. Advancing front sampling from radial lines (spokes) through prior samples.
 
-1. Copyright and Citations
-2. Compiling
-3. Interface
+## Copyright and Credit
 
-
-1. 
 Copyright 2016 Sandia Corporation. Under the terms of Contract DE-AC04-94AL85000 with Sandia Corporation, the U.S. Government retains certain rights in this software.
 SCR#:2084.0
 
-To credit this work, please cite the following paper:
+To credit this work, please cite the following paper and software:
 
 @article{spokedarts_journal,
 author = {Scott A. Mitchell and Mohamed S. Ebeida and Muhammad A. Awad and Chonhyon Park and Anjul Patney and Laura P. Swiler and Dinesh Manocha and Li-Yi Wei and Ahmad A. Rushdi},
@@ -55,12 +51,16 @@ _note={arxiv submission 1038046},
 }
 % date = 5 aug 2014
 
-This code:
+This software code:
+@misc{spokedartspubliccode, 
+ author={Muhammad A Awad and Mohamed S Ebeida and Scott A. Mitchell and  Anjul Patney and Ahmad A Rushdi and Laura P Swiler}, 
+ title={{SpokeDartsPublic} Open-source Software}, 
+ howpublished={v. 1.0, \url{https://github.com/samitch/SpokeDartsPublic}}, 
+ year={2016}
+}
 
+## Compiling
+The software has been compiled using Xcode on Mac OS X, and on Unix. The code used c++11 extensions. If you want to compile it multithreaded, you should consider disabling the use of the Mem_Pool memory managed pool of objects.
 
-2. Compiling
-The software has been compiled using Xcode on Mac OS X, and on Unix. The code used c++11 extensions.
-If you want to compile it multithreaded, you should consider disabling the use of the Mem_Pool memory managed pool of objects.
-
-3. Interface
-There is no interface developed currently. For examples of how to run the various sampling algorithms and their options, see main.cpp
+## Interface
+There is no command line interface currently. All you can do is edit the source code. For examples of how to run the various sampling algorithms and their options, see main.cpp
