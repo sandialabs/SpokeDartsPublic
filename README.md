@@ -14,6 +14,7 @@ Copyright 2016 Sandia Corporation. Under the terms of Contract DE-AC04-94AL85000
 SCR#:2084.0
 
 * To credit this work, please cite the following paper and software:
+*
 @article{spokedarts_journal,
 author = {Scott A. Mitchell and Mohamed S. Ebeida and Muhammad A. Awad and Chonhyon Park and Anjul Patney and Laura P. Swiler and Dinesh Manocha and Li-Yi Wei and Ahmad A. Rushdi},
 title = {Efficient Blue Noise Sampling in any Dimension},
@@ -36,6 +37,7 @@ note={Open source software available from \url{https://github.com/samitch/SpokeD
 }
 
 * Use the  "archivePrefix", "eprint", and "primaryClass" fields if your bibliography style handles it, otherwise usepackage{url} in the latex file and use the "note" field in the bib file entry. See also http://arxiv.org/hypertex/bibstyles/
+*
 @Article{spokedarts_arxiv,
 author = {Mohamed S. Ebeida and Scott A. Mitchell and Muhammad A. Awad and Chonhyon Park and Laura P. Swiler and Dinesh Manocha and Li-Yi Wei},
 title = {Spoke Darts for Efficient High Dimensional Blue Noise Sampling},
@@ -54,6 +56,7 @@ note = {arXiv:1408.1118 [cs.GR] \url{http://arxiv.org/abs/1408.1118}},
 note={arxiv submission 1038046}, date = 5 aug 2014
 
 * This software code:
+*
 @misc{spokedartspubliccode, 
  author={Muhammad A Awad and Mohamed S Ebeida and Scott A. Mitchell and  Anjul Patney and Ahmad A Rushdi and Laura P Swiler}, 
  title={{SpokeDartsPublic} Open-source Software}, 
