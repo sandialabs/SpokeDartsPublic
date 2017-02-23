@@ -15,7 +15,11 @@
 
 void MPS_Two_Spoke::create(size_t num_dim_in, bool is_periodic, double r, Search_Factory::Search_Type search_type, bool all_searches_global, bool perm_ghosts)
 {
-  std::cout << std::endl << "Starting two-spokes d:" << num_dim_in << " r:" << r << std::endl;
+  // alpha parameterizes the amount of randomness to add
+  // alpha=0 and gamma=0 does line spokes
+  const double alpha = 1.; // alpha in [0,inf)
+  const double gamma = 1.; // gamma in [0,1]
+  std::cout << std::endl << "Starting two-spokes d:" << num_dim_in << " r:" << r << " alpha:" << alpha << " gamma:" << gamma << std::endl;
 
   /*
   find uncovered point
@@ -56,19 +60,20 @@ void MPS_Two_Spoke::create(size_t num_dim_in, bool is_periodic, double r, Search
   Wheel_Stats wheel_stats;
   bool covered_sphere(false);
 
-  double anchor_nbr_dist = 4. * r;
-  double trim_nbr_dist = 6. * r; // 6 = uses 2r coverage disks, to check a point up to 4r away
-  double free_nbr_dist = 7. * r; // 7 = 4r uncovered point, plus 2r spoke length, plus 1r sphere radius
-
+  double anchor_nbr_dist = 2. * (1.+alpha) * r; // alpha=1 -> 4. * r;
+  double trim_nbr_dist =   3. * (1.+alpha) * r; // 6 = uses 2r coverage disks, to check a point up to 4r away
+  double free_nbr_dist = ( 2. * (1.+alpha) + gamma * (1.+alpha) + 1. ) * r; // 7 = 4r uncovered point, plus 2r spoke length, plus 1r sphere radius
+  
   // Initial and trimmed spoke lengths
   // r_free == r
-  const double r_cover = 2. * r;
+  const double r_cover = (1. + alpha) * r; // alpha=1 -> 2. * r;
   Spoke_Length covered_sl(1., 2., r_cover); // 2r coverage disks, spoke goes from 2r to 4r
-  Spoke_Length free_sl(-2., 2., r);       // 1r free disks
-  Spoke_Length free_sl_onesided(0, 2., r); // 1r free disks
+  const double free_spoke_l = gamma * (1. + alpha);
+  Spoke_Length free_sl(-free_spoke_l, free_spoke_l, r);       // 1r free disks
+  Spoke_Length free_sl_onesided(0, free_spoke_l, r); // 1r free disks
   Spoke_Length free_spokes[_num_free_spokes];
   for (size_t i = 0; i < _num_free_spokes; ++i)
-    free_spokes[i].reset(-2., 2., r);
+    free_spokes[i].reset(-free_spoke_l, free_spoke_l, r);
   // be sure trimming retains both sides of anchor for the free spokes
 
   const double max_search_distance = free_nbr_dist + .01 * r; // .01 is a safety factor
@@ -227,10 +232,10 @@ void MPS_Two_Spoke::create(size_t num_dim_in, bool is_periodic, double r, Search
       // covered_sl.A = 2. * cr; 
       covered_sl.A = r_cover;  // constant radius disks
       
-      // the final 2 parameter scales the r grabbed from the sphere coordinate, to be 2r coverage spheres
+      // the final parameter scales the r grabbed from the sphere coordinate, to be (1. + alpha)r coverage spheres
       bool valid_dart = _sd->generate_dart(dart, u, covered_sl.A, _c, anchor_nbr,
                                     do_wheels, &dart_is_from_wheel, &wheel_stats, &covered_sphere,
-                                    2. );
+                                    (1. + alpha) );
       // if the whole sphere is covered, we know all future throws will fail, too
       if (covered_sphere)
         _quit_early = true;
@@ -246,7 +251,7 @@ void MPS_Two_Spoke::create(size_t num_dim_in, bool is_periodic, double r, Search
         _sd->trim_by_domain( _c, u, covered_sl.A_2, &_domain ); // does nothing if periodic
         assert(covered_sl.A_2 >= covered_sl.A_1);
         
-        trim_nbr->trim_line_anchored(_c, u, r_cover, covered_sl.A, covered_sl.A_1, covered_sl.A_2, 2.);
+        trim_nbr->trim_line_anchored(_c, u, r_cover, covered_sl.A, covered_sl.A_1, covered_sl.A_2, (1. + alpha));
       }
       
       // ================================================================
@@ -302,7 +307,7 @@ void MPS_Two_Spoke::create(size_t num_dim_in, bool is_periodic, double r, Search
         {
           _rng->sample_uniformly_from_unit_sphere_surface( u2 );
 
-          // trim spoke. the spoke is of length 2r, but exclusion disks are just 1r
+          // trim spoke. the spoke is of length (1. + alpha)r, but exclusion disks are just 1r
           // trim_spoke trims both the bottom and the top by the domain boundary
           free_sl.reset(r);
           free_sl.A = 0.;  // anchor is at the uncovered point, not the point at distance r
