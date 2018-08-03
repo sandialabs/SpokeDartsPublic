@@ -56,7 +56,6 @@
 		D211CE721A1192AB00F8D424 /* Crossing_Tool.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Crossing_Tool.cpp; path = ../Crossing_Tool.cpp; sourceTree = "<group>"; };
 		D211CE731A1192AB00F8D424 /* Crossing_Tool.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Crossing_Tool.hpp; path = ../Crossing_Tool.hpp; sourceTree = "<group>"; };
 		D211CE741A1192AB00F8D424 /* Crossing.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Crossing.hpp; path = ../Crossing.hpp; sourceTree = "<group>"; };
-		D211CE751A1192AB00F8D424 /* design.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = design.txt; path = ../design.txt; sourceTree = "<group>"; };
 		D211CE761A1192AB00F8D424 /* Domain.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Domain.hpp; path = ../Domain.hpp; sourceTree = "<group>"; };
 		D211CE771A1192AB00F8D424 /* Geometry_Tool.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Geometry_Tool.cpp; path = ../Geometry_Tool.cpp; sourceTree = "<group>"; };
 		D211CE781A1192AB00F8D424 /* Geometry_Tool.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Geometry_Tool.hpp; path = ../Geometry_Tool.hpp; sourceTree = "<group>"; };
@@ -116,7 +115,6 @@
 		D2D7920A1A26837400392AF1 /* Sphere_Container_Iterator.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Sphere_Container_Iterator.hpp; path = ../Sphere_Container_Iterator.hpp; sourceTree = "<group>"; };
 		D2D7920B1A26837400392AF1 /* Sphere_Container.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Sphere_Container.cpp; path = ../Sphere_Container.cpp; sourceTree = "<group>"; };
 		D2D7920D1A26838200392AF1 /* Const_Sphere_Container_Iterator.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Const_Sphere_Container_Iterator.hpp; path = ../Const_Sphere_Container_Iterator.hpp; sourceTree = "<group>"; };
-		D2F8D9DD1C1A6633002892A4 /* MPS_Favored_Spoke.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = MPS_Favored_Spoke.hpp; path = ../MPS_Favored_Spoke.hpp; sourceTree = "<group>"; };
 		D2F8D9DE1C1A6653002892A4 /* Scaling_Study.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Scaling_Study.cpp; path = ../Scaling_Study.cpp; sourceTree = "<group>"; };
 		D2F8D9DF1C1A6653002892A4 /* Scaling_Study.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Scaling_Study.hpp; path = ../Scaling_Study.hpp; sourceTree = "<group>"; };
 		D2F8D9E01C1A6653002892A4 /* Search_Factory.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Search_Factory.cpp; path = ../Search_Factory.cpp; sourceTree = "<group>"; };
@@ -151,7 +149,6 @@
 				D211CE741A1192AB00F8D424 /* Crossing.hpp */,
 				D240EB911A1C23FB002F18E3 /* Darts_IO.cpp */,
 				D240EB921A1C23FB002F18E3 /* Darts_IO.hpp */,
-				D211CE751A1192AB00F8D424 /* design.txt */,
 				D211CE761A1192AB00F8D424 /* Domain.hpp */,
 				D211CE771A1192AB00F8D424 /* Geometry_Tool.cpp */,
 				D211CE781A1192AB00F8D424 /* Geometry_Tool.hpp */,
@@ -168,7 +165,6 @@
 				D2F99D3D1A44F1C10002817E /* Mem_Pool.hpp */,
 				D25BC2981C4DC229001F2209 /* MPS_Bridson.cpp */,
 				D25BC2991C4DC229001F2209 /* MPS_Bridson.hpp */,
-				D2F8D9DD1C1A6633002892A4 /* MPS_Favored_Spoke.hpp */,
 				D259A7BA1A2FD92F00AF4E05 /* MPS_Favored.cpp */,
 				D259A7BB1A2FD92F00AF4E05 /* MPS_Favored.hpp */,
 				D211CE831A1192AB00F8D424 /* MPS_Spoke.cpp */,

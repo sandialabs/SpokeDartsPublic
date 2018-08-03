@@ -216,13 +216,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "../MPS.cpp"
-            timestampString = "476052728.526462"
+            timestampString = "555027626.447498"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "292"
             endingLineNumber = "292"
             landmarkName = "MPS::advance_front()"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -232,13 +232,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "../MPS.cpp"
-            timestampString = "476052728.526462"
+            timestampString = "555027626.4475909"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "279"
             endingLineNumber = "279"
             landmarkName = "MPS::advance_front()"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -248,28 +248,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "../MPS.cpp"
-            timestampString = "476052728.526462"
+            timestampString = "555027626.447667"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "273"
             endingLineNumber = "273"
             landmarkName = "MPS::advance_front()"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "../main.cpp"
-            timestampString = "482110878.751772"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "111"
-            endingLineNumber = "111"
-            landmarkName = "main(int argc, char *argv[])"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -286,7 +270,7 @@
             startingLineNumber = "124"
             endingLineNumber = "124"
             landmarkName = "MPS_Spoke::create(size_t num_dim_in, bool is_periodic, double r, Search_Factory::Search_Type search_type, bool all_searches_global, bool perm_ghosts)"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -302,7 +286,7 @@
             startingLineNumber = "134"
             endingLineNumber = "134"
             landmarkName = "MPS_Spoke::create(size_t num_dim_in, bool is_periodic, double r, Search_Factory::Search_Type search_type, bool all_searches_global, bool perm_ghosts)"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -334,7 +318,7 @@
             startingLineNumber = "137"
             endingLineNumber = "137"
             landmarkName = "MPS_Spoke::create(size_t num_dim_in, bool is_periodic, double r, Search_Factory::Search_Type search_type, bool all_searches_global, bool perm_ghosts)"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -360,13 +344,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "../MPS.cpp"
-            timestampString = "476052728.526462"
+            timestampString = "555027626.4479491"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "532"
             endingLineNumber = "532"
             landmarkName = "MPS::report(size_t loop_count, size_t &amp; next_report)"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -430,7 +414,7 @@
             startingLineNumber = "252"
             endingLineNumber = "252"
             landmarkName = "MPS_Spoke::create(size_t num_dim_in, bool is_periodic, double r, Search_Factory::Search_Type search_type, bool all_searches_global, bool perm_ghosts)"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -494,7 +478,7 @@
             startingLineNumber = "214"
             endingLineNumber = "214"
             landmarkName = "MPS_Spoke::create(size_t num_dim_in, bool is_periodic, double r, Search_Factory::Search_Type search_type, bool all_searches_global, bool perm_ghosts)"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -510,7 +494,7 @@
             startingLineNumber = "217"
             endingLineNumber = "217"
             landmarkName = "MPS_Spoke::create(size_t num_dim_in, bool is_periodic, double r, Search_Factory::Search_Type search_type, bool all_searches_global, bool perm_ghosts)"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -526,7 +510,7 @@
             startingLineNumber = "219"
             endingLineNumber = "219"
             landmarkName = "MPS_Spoke::create(size_t num_dim_in, bool is_periodic, double r, Search_Factory::Search_Type search_type, bool all_searches_global, bool perm_ghosts)"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -568,13 +552,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "../MPS.cpp"
-            timestampString = "475790795.225462"
+            timestampString = "555027626.448514"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "216"
             endingLineNumber = "216"
             landmarkName = "MPS::new_global_search( const double max_search_distance, Search_Factory::Search_Type search_type )"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -584,13 +568,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "../MPS.cpp"
-            timestampString = "475790795.225462"
+            timestampString = "555027626.448588"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "170"
             endingLineNumber = "170"
-            landmarkName = "MPS::new_global_search( const double max_search_distance, Search_Factory::Search_Type search_type )"
-            landmarkType = "5">
+            landmarkName = "MPS::new_spheres( bool do_ghosts, double r, double max_search_distance, size_t max_num_spheres )"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -606,7 +590,7 @@
             startingLineNumber = "69"
             endingLineNumber = "69"
             landmarkName = "MPS_Spoke::create(size_t num_dim_in, bool is_periodic, double r, Search_Factory::Search_Type search_type, bool all_searches_global, bool perm_ghosts)"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -616,13 +600,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "../MPS.cpp"
-            timestampString = "476052728.526462"
+            timestampString = "555027626.448705"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "272"
             endingLineNumber = "272"
             landmarkName = "MPS::advance_front()"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -648,13 +632,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "../MPS.cpp"
-            timestampString = "482110561.749192"
+            timestampString = "555027626.448823"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "87"
             endingLineNumber = "87"
             landmarkName = "MPS::create_center_sphere(double *p, double r)"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -670,7 +654,7 @@
             startingLineNumber = "52"
             endingLineNumber = "52"
             landmarkName = "MPS_Spoke::create(size_t num_dim_in, bool is_periodic, double r, Search_Factory::Search_Type search_type, bool all_searches_global, bool perm_ghosts)"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -686,7 +670,7 @@
             startingLineNumber = "51"
             endingLineNumber = "51"
             landmarkName = "MPS_Spoke::create(size_t num_dim_in, bool is_periodic, double r, Search_Factory::Search_Type search_type, bool all_searches_global, bool perm_ghosts)"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -696,13 +680,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "../MPS.cpp"
-            timestampString = "475790795.225462"
+            timestampString = "555027626.448981"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "213"
             endingLineNumber = "213"
             landmarkName = "MPS::new_global_search( const double max_search_distance, Search_Factory::Search_Type search_type )"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -734,7 +718,7 @@
             startingLineNumber = "166"
             endingLineNumber = "166"
             landmarkName = "MPS_Spoke::create(size_t num_dim_in, bool is_periodic, double r, Search_Factory::Search_Type search_type, bool all_searches_global, bool perm_ghosts)"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -750,7 +734,7 @@
             startingLineNumber = "197"
             endingLineNumber = "197"
             landmarkName = "MPS_Spoke::create(size_t num_dim_in, bool is_periodic, double r, Search_Factory::Search_Type search_type, bool all_searches_global, bool perm_ghosts)"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -766,7 +750,7 @@
             startingLineNumber = "180"
             endingLineNumber = "180"
             landmarkName = "MPS_Spoke::create(size_t num_dim_in, bool is_periodic, double r, Search_Factory::Search_Type search_type, bool all_searches_global, bool perm_ghosts)"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -782,7 +766,7 @@
             startingLineNumber = "192"
             endingLineNumber = "192"
             landmarkName = "MPS_Spoke::create(size_t num_dim_in, bool is_periodic, double r, Search_Factory::Search_Type search_type, bool all_searches_global, bool perm_ghosts)"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -814,7 +798,7 @@
             startingLineNumber = "193"
             endingLineNumber = "193"
             landmarkName = "MPS_Spoke::create(size_t num_dim_in, bool is_periodic, double r, Search_Factory::Search_Type search_type, bool all_searches_global, bool perm_ghosts)"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -888,13 +872,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "../MPS.cpp"
-            timestampString = "475790795.225462"
+            timestampString = "555027626.449531"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "123"
             endingLineNumber = "123"
             landmarkName = "MPS::new_spheres( bool do_ghosts, double r, double max_search_distance, size_t max_num_spheres )"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -984,7 +968,7 @@
             startingLineNumber = "228"
             endingLineNumber = "228"
             landmarkName = "MPS_Two_Spoke::create(size_t num_dim_in, bool is_periodic, double r, Search_Factory::Search_Type search_type, bool all_searches_global, bool perm_ghosts)"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1032,7 +1016,7 @@
             startingLineNumber = "207"
             endingLineNumber = "207"
             landmarkName = "MPS_Two_Spoke::create(size_t num_dim_in, bool is_periodic, double r, Search_Factory::Search_Type search_type, bool all_searches_global, bool perm_ghosts)"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1064,7 +1048,7 @@
             startingLineNumber = "63"
             endingLineNumber = "63"
             landmarkName = "MPS_Two_Spoke::create(size_t num_dim_in, bool is_periodic, double r, Search_Factory::Search_Type search_type, bool all_searches_global, bool perm_ghosts)"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1144,7 +1128,7 @@
             startingLineNumber = "47"
             endingLineNumber = "47"
             landmarkName = "MPS_Spoke::create(size_t num_dim_in, bool is_periodic, double r, Search_Factory::Search_Type search_type, bool all_searches_global, bool perm_ghosts)"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1160,7 +1144,7 @@
             startingLineNumber = "154"
             endingLineNumber = "154"
             landmarkName = "MPS_Spoke::create(size_t num_dim_in, bool is_periodic, double r, Search_Factory::Search_Type search_type, bool all_searches_global, bool perm_ghosts)"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1176,7 +1160,7 @@
             startingLineNumber = "65"
             endingLineNumber = "65"
             landmarkName = "MPS_Spoke::create(size_t num_dim_in, bool is_periodic, double r, Search_Factory::Search_Type search_type, bool all_searches_global, bool perm_ghosts)"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1186,13 +1170,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "../MPS.cpp"
-            timestampString = "476157741.88928"
+            timestampString = "555027626.4503599"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "664"
             endingLineNumber = "664"
             landmarkName = "MPS::output_results()"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1202,13 +1186,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "../MPS.cpp"
-            timestampString = "476157741.88928"
+            timestampString = "555027626.450434"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "683"
             endingLineNumber = "683"
             landmarkName = "MPS::output_results()"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1218,13 +1202,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "../MPS.cpp"
-            timestampString = "482110561.749192"
+            timestampString = "555027626.450503"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "55"
             endingLineNumber = "55"
             landmarkName = "MPS::create(size_t num_dim, bool is_periodic, double r, double max_search_distance, Search_Factory::Search_Type search_type, size_t max_num_spheres, bool perm_ghosts, bool all_searches_global)"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1234,13 +1218,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "../MPS.cpp"
-            timestampString = "475790795.225462"
+            timestampString = "555027626.450573"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "143"
             endingLineNumber = "143"
             landmarkName = "MPS::new_spheres( bool do_ghosts, double r, double max_search_distance, size_t max_num_spheres )"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1250,13 +1234,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "../MPS.cpp"
-            timestampString = "476158070.329175"
+            timestampString = "555027626.4506429"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "880"
             endingLineNumber = "880"
             landmarkName = "MPS::estimate_beta( size_t sphere_index )"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1282,13 +1266,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "../MPS.cpp"
-            timestampString = "476158070.329175"
+            timestampString = "555027626.450758"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "874"
             endingLineNumber = "874"
             landmarkName = "MPS::estimate_beta( size_t sphere_index )"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1304,7 +1288,7 @@
             startingLineNumber = "730"
             endingLineNumber = "730"
             landmarkName = "Point_Tool::next_theta( double *theta, const double increment )"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1314,13 +1298,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "../MPS.cpp"
-            timestampString = "476158070.329175"
+            timestampString = "555027626.450875"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "896"
             endingLineNumber = "896"
             landmarkName = "MPS::estimate_beta( size_t sphere_index )"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1330,13 +1314,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "../MPS.cpp"
-            timestampString = "476158070.329175"
+            timestampString = "555027626.450947"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "900"
             endingLineNumber = "900"
             landmarkName = "MPS::estimate_beta( size_t sphere_index )"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1346,13 +1330,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "../MPS.cpp"
-            timestampString = "476052833.396263"
+            timestampString = "555027626.451018"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "252"
             endingLineNumber = "252"
-            landmarkName = "MPS::advance_front()"
-            landmarkType = "5">
+            landmarkName = "MPS::new_global_search( const double max_search_distance, Search_Factory::Search_Type search_type )"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1362,13 +1346,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "../MPS.cpp"
-            timestampString = "476053050.534257"
+            timestampString = "555027626.451088"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "261"
             endingLineNumber = "261"
             landmarkName = "MPS::advance_front()"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1384,7 +1368,7 @@
             startingLineNumber = "160"
             endingLineNumber = "160"
             landmarkName = "MPS_Spoke::create(size_t num_dim_in, bool is_periodic, double r, Search_Factory::Search_Type search_type, bool all_searches_global, bool perm_ghosts)"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1394,13 +1378,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "../MPS.cpp"
-            timestampString = "476152746.991625"
+            timestampString = "555027626.4512039"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "611"
             endingLineNumber = "611"
-            landmarkName = "MPS::winnow_disks_for_output()"
-            landmarkType = "5">
+            landmarkName = "unknown"
+            landmarkType = "0">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1410,13 +1394,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "../MPS.cpp"
-            timestampString = "476157741.88928"
+            timestampString = "555027626.451278"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "628"
             endingLineNumber = "628"
             landmarkName = "MPS::winnow_disks_for_output()"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1426,13 +1410,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "../MPS.cpp"
-            timestampString = "476153582.403511"
+            timestampString = "555027626.451387"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "616"
             endingLineNumber = "616"
             landmarkName = "MPS::winnow_disks_for_output()"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1442,13 +1426,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "../MPS.cpp"
-            timestampString = "476158064.832485"
+            timestampString = "555027626.451479"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "834"
             endingLineNumber = "834"
             landmarkName = "MPS::estimate_beta( size_t sphere_index )"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1458,13 +1442,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "../MPS.cpp"
-            timestampString = "476158206.207013"
+            timestampString = "555027626.4515491"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "832"
             endingLineNumber = "832"
             landmarkName = "MPS::estimate_beta( size_t sphere_index )"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1474,13 +1458,61 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "../MPS.cpp"
-            timestampString = "476158314.349659"
+            timestampString = "555027626.451618"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "893"
             endingLineNumber = "893"
             landmarkName = "MPS::estimate_beta( size_t sphere_index )"
-            landmarkType = "5">
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../Search_Grid.cpp"
+            timestampString = "555027626.451691"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "248"
+            endingLineNumber = "248"
+            landmarkName = "Search_Grid::no_near_spheres_recurse( size_t d )"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../Search_Grid.cpp"
+            timestampString = "555027626.451759"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "244"
+            endingLineNumber = "244"
+            landmarkName = "Search_Grid::no_near_spheres_recurse( size_t d )"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../main.cpp"
+            timestampString = "555027626.451827"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "163"
+            endingLineNumber = "163"
+            landmarkName = "main(int argc, char *argv[])"
+            landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

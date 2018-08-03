@@ -13,7 +13,9 @@
 class Search_Factory
 {
 public:
-  enum Search_Type { UNSPECIFIED, ARRAY, GRID, TREE, RANGE };
+  enum Search_Type { UNSPECIFIED=0, ARRAY, GRID, TREE, RANGE };
+  const std::vector<const std::string> search_description = { "unspecified", "exhaustive search array, O(n)", "a uniform background grid", "a k-d tree", "a range tree (experimental!)" };
+  const std::vector<const std::string> search_name = { "unspecified", "array", "grid", "k-d tree", "range tree (experimental!)" };
 
   static
   Search_Structure* new_search( Search_Type search_type, Spheres *spheres, bool is_global = false, double search_distance = 0.2, double xmax = 1, double xmin = 0.);

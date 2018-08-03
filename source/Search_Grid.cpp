@@ -244,7 +244,7 @@ bool Search_Grid::no_near_spheres_recurse( size_t d )
   Near_Workspace &ws = _ws;
 
   // debug
-  assert(ws._num_calls < size() * num_dim());
+  assert(ws._num_calls < (10+size()) * num_dim());
   ++ws._num_calls;
 
   // recurse by dimension
@@ -336,7 +336,7 @@ void Search_Grid::closest_point( Cell_Index ci, const double *p, double *q )
 
 void Search_Grid::trim_line_anchored(const double* c, double* u, double r, double A, double &A_1, double &A_2, const double radius_factor  )
 {
-  assert(0); // this is not implemented yet. The following imply iterates over *all* the spheres and ignores the grid.
+  assert(0); // this is not implemented yet. The following simply iterates over *all* the spheres and ignores the grid.
   _stats.start_clock();
   size_t true_trims(0);
   for (size_t i = _array.first(); i != _array.bad_sphere_index(); i = _array.next())

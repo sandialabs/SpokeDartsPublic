@@ -1,0 +1,22 @@
+Nested Searches performance: 
+0: Search Stats: 6 searches in 1.6e-05 seconds.
+  found 18 of 26 visited of 26 searched.
+  Average number found per search = 3
+  Total fraction visited/total = 1, found/total = 0.692308, found/visited = 0.692308
+  Average fraction visited/total = 1, found/total = 0.566667, found/visited = 0.566667
+1: subset at distance = 0.96, Search Stats: 72 searches in 0.00013 seconds.
+  found 62 of 196 visited of 277 searched.
+  Average number found per search = 0.861111
+  Total fraction visited/total = 0.707581, found/total = 0.223827, found/visited = 0.316327
+  Average fraction visited/total = 0.756019, found/total = 0.231713, found/visited = 0.323843
+2: subset at distance = 0.4, Search Stats: 69 searches in 0.000105 seconds.
+  found 9 of 115 visited of 131 searched.
+  Average number found per search = 0.130435
+  Total fraction visited/total = 0.877863, found/total = 0.0687023, found/visited = 0.0782609
+  Average fraction visited/total = 0.903382, found/total = 0.0797101, found/visited = 0.130435
+MPS run-time data:
+    Total Time = 0.0015 seconds: setup = 0.0001 & main = 0.0008 & post = 0.0006 )
+    Number of created disks = 6
+    Number of thrown darts = 80
+
+0.0008  6

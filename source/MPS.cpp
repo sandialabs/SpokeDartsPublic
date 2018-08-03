@@ -163,7 +163,8 @@ Spheres * MPS::new_spheres( bool do_ghosts, double r, double max_search_distance
   // for some reason in practice it takes one less factor of d
   const double time_low = time_factor * num_dim() * neighbor_guess * array_size;
   const double time_high = time_factor * num_dim() * array_size * array_size;
-  std::cout << std::endl << "Relative time between " <<  time_low << " and " << time_high << ", closer to the second for higher dimensions." << std::endl;
+  // std::cout << std::endl << "Relative time between " <<  time_low << " and " << time_high << ", closer to the second for higher dimensions." << std::endl;
+  std::cout << std::endl << "Relative time estimate is " <<  time_low << std::endl;
   
   return _spheres;
 }
