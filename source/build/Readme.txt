@@ -1,7 +1,7 @@
 # build spokedarts using cmake (or xcode on mac)
 # cd build (this directory)
 cmake ..
-make
+make -j16
 
 # At this point you should see the executable file spokedarts in this directory
 

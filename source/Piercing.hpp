@@ -13,6 +13,8 @@
 #ifndef PIERCING
 #define PIERCING
 
+#include <algorithm>
+
 #include "Interval_Tool.hpp"
 #include "Spheres.hpp"
 #include "Trimming_Tool.hpp"

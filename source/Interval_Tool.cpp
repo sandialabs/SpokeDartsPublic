@@ -5,6 +5,7 @@
 
 #include "Interval_Tool.hpp"
 #include <assert.h>
+#include <cstddef>
 
 void Interval_Tool::pick_interval_uniformly( double t, const std::vector<double> &intervals, double sum_lengths, double &A, double &B )
 {

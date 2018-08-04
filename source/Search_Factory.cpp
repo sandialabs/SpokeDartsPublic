@@ -13,6 +13,11 @@
 #include "Search_Tree.hpp"
 #include "Search_Range.hpp"
 
+
+const char* Search_Factory::search_description[] = { "unspecified", "exhaustive search array, O(n)", "a uniform background grid", "a k-d tree", "a range tree (experimental!)" };
+const char* Search_Factory::search_name[] = { "unspecified", "array", "grid", "k-d tree", "range tree (experimental!)" };
+
+
 Search_Structure* Search_Factory::new_search( Search_Type search_type, Spheres *spheres, bool is_global, double search_distance, double xmax, double xmin )
 {
   Search_Structure *search(0);

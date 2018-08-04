@@ -6,6 +6,7 @@
 #ifndef QUALITY_TOOL_HPP
 #define QUALITY_TOOL_HPP
 
+#include <cstddef>
 #include <vector>
 #include <math.h>
 #include <limits.h>

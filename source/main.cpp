@@ -152,7 +152,7 @@ int main(int argc, char *argv[])
     int search_id;
     do
     {
-      ui_num("Enter the type of search. 0=keep default, 1=" + sf.search_name[1] + ", 3=" + sf.search_name[3], search_id);
+      ui_num("Enter the type of search. 0=keep default, 1=" + std::string(sf.search_name[1]) + ", 3=" + std::string(sf.search_name[3]), search_id);
     } while (search_id < 0 || search_id > 3 || search_id == 2);
     if (search_id>0)
       search_type = (Search_Factory::Search_Type) search_id;

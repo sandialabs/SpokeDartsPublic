@@ -10,6 +10,7 @@
 #define SEARCH_STRUCTURE
 
 #include <cstddef>
+#include <limits>
 #include "Sphere_Container.hpp"
 #include "Search_Stats.hpp"
 #include "Trimming_Tool.hpp"

@@ -6,6 +6,8 @@
 #ifndef CROSSING_TOOL
 #define CROSSING_TOOL
 
+#include <algorithm>
+
 #include "Crossing.hpp"
 #include "Interval_Tool.hpp"
 // see Crossing.hpp for the definition of a Crossing
