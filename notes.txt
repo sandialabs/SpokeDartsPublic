@@ -7,3 +7,4 @@ To do list, no date estimate
 2 sample continuation - start with some prescribed set of input samples (could be from a prior run with a large radius, as in var-rad, or really just anything), then continue sampling with a new (smaller) radius.
 
 3 non-uniform sampling radius - specify a radius function, e.g. the reciprocal of a probability distribution
+
